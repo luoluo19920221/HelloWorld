@@ -21,6 +21,7 @@ public class HelloController {
         modelMap.addAttribute("message", "spring mvc  hello world");
         modelMap.addAttribute("luoluo", "luoluo's hello world");
         modelMap.addAttribute("ningwawa","zhutou");
+        modelMap.addAttribute("shenlifei","zhongzhongda");
         return  "hello";
     }
 }
