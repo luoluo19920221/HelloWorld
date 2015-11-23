@@ -20,6 +20,7 @@ public class HelloController {
         System.out.println("luoluo zhenbang");
         modelMap.addAttribute("message", "spring mvc  hello world");
         modelMap.addAttribute("luoluo", "luoluo's hello world");
+        modelMap.addAttribute("ningwawa","zhutou");
         return  "hello";
     }
 }
